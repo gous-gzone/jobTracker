@@ -1,0 +1,33 @@
+.proof-footer {
+  padding: var(--spacing-lg) var(--spacing-lg);
+  background-color: var(--color-white);
+  border-top: 1px solid var(--color-border-default);
+}
+
+.proof-footer__content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.proof-footer__title {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--color-text-primary);
+  margin-bottom: var(--spacing-md);
+}
+
+.proof-footer__items {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+}
+
+.proof-footer__item {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+}
+
+.proof-footer__input {
+  margin-left: 26px;
+}

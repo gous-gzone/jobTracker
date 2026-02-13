@@ -1,0 +1,36 @@
+.top-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--spacing-md) var(--spacing-lg);
+  background-color: var(--color-white);
+  border-bottom: 1px solid var(--color-border-default);
+}
+
+.top-bar__left {
+  flex: 1;
+}
+
+.top-bar__project-name {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--color-text-primary);
+}
+
+.top-bar__center {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.top-bar__progress {
+  font-size: 15px;
+  color: var(--color-text-secondary);
+  font-weight: 500;
+}
+
+.top-bar__right {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}

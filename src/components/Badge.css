@@ -1,0 +1,25 @@
+.badge {
+  display: inline-flex;
+  align-items: center;
+  padding: var(--spacing-xs) var(--spacing-sm);
+  border-radius: var(--border-radius-sm);
+  font-size: 14px;
+  font-weight: 500;
+  border: 1px solid var(--color-border-default);
+  background-color: var(--color-white);
+  color: var(--color-text-primary);
+}
+
+.badge--not-started {
+  color: var(--color-text-secondary);
+}
+
+.badge--in-progress {
+  border-color: var(--color-warning-muted);
+  color: var(--color-warning-base);
+}
+
+.badge--shipped {
+  border-color: var(--color-success-muted);
+  color: var(--color-success-base);
+}

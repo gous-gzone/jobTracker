@@ -1,0 +1,6 @@
+.primary-workspace {
+  flex: 0 0 70%;
+  padding: var(--spacing-md) var(--spacing-lg);
+  max-width: 100%;
+  overflow-x: hidden;
+}
