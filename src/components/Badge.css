@@ -23,3 +23,32 @@
   border-color: var(--color-success-muted);
   color: var(--color-success-base);
 }
+
+.badge--default {
+  color: var(--color-text-secondary);
+}
+
+.badge--muted {
+  color: var(--color-text-muted);
+  border-color: var(--color-text-muted);
+}
+
+.badge--success {
+  border-color: var(--color-success-base);
+  color: var(--color-success-base);
+}
+
+.badge--danger {
+  border-color: var(--color-accent-primary);
+  color: var(--color-accent-primary);
+}
+
+.badge--info {
+  border-color: #0077B5;
+  color: #0077B5;
+}
+
+.badge--warning {
+  border-color: var(--color-warning-base);
+  color: var(--color-warning-base);
+}

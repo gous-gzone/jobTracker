@@ -1,0 +1,108 @@
+.job-card {
+  background: var(--color-white);
+  border: 1px solid var(--color-border-default);
+  border-radius: var(--border-radius-md);
+  padding: var(--spacing-md);
+  transition: border-color var(--transition-default);
+}
+
+.job-card:hover {
+  border-color: var(--color-text-secondary);
+}
+
+.job-card__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: var(--spacing-sm);
+  gap: var(--spacing-sm);
+}
+
+.job-card__badges {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xs);
+  align-items: flex-end;
+}
+
+.job-card__title {
+  font-family: var(--font-heading);
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--color-text-primary);
+  margin-bottom: 4px;
+}
+
+.job-card__company {
+  font-size: 16px;
+  color: var(--color-text-secondary);
+}
+
+.job-card__meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-sm);
+  margin-bottom: var(--spacing-sm);
+  font-size: 15px;
+  color: var(--color-text-secondary);
+}
+
+.job-card__meta-item {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.job-card__salary {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--color-text-primary);
+  margin-bottom: var(--spacing-sm);
+}
+
+.job-card__status {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+  margin-bottom: var(--spacing-sm);
+}
+
+.job-card__status-label {
+  font-size: 14px;
+  color: var(--color-text-secondary);
+}
+
+.job-card__status-select {
+  padding: 6px 10px;
+  border: 1px solid var(--color-border-default);
+  border-radius: var(--border-radius-sm);
+  background: var(--color-white);
+  color: var(--color-text-primary);
+  font-size: 14px;
+  cursor: pointer;
+  transition: border-color var(--transition-default);
+}
+
+.job-card__status-select:focus {
+  outline: none;
+  border-color: var(--color-border-focus);
+}
+
+.job-card__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--spacing-sm);
+  padding-top: var(--spacing-sm);
+  border-top: 1px solid var(--color-border-default);
+}
+
+.job-card__actions {
+  display: flex;
+  gap: var(--spacing-xs);
+}
+
+.job-card__posted {
+  font-size: 14px;
+  color: var(--color-text-muted);
+}

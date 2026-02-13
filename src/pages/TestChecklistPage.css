@@ -1,0 +1,113 @@
+.test-checklist {
+  padding: var(--spacing-lg) var(--spacing-md);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.test-checklist__header {
+  margin-bottom: var(--spacing-lg);
+}
+
+.test-checklist__heading {
+  font-family: var(--font-heading);
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--color-text-primary);
+  margin-bottom: var(--spacing-sm);
+}
+
+.test-checklist__subtext {
+  font-size: 17px;
+  line-height: 1.7;
+  color: var(--color-text-secondary);
+}
+
+.test-checklist__summary {
+  padding: var(--spacing-md);
+  background: var(--color-white);
+  border: 1px solid var(--color-border-default);
+  border-radius: var(--border-radius-md);
+  margin-bottom: var(--spacing-md);
+  text-align: center;
+}
+
+.test-checklist__summary--warning {
+  border-color: var(--color-warning-base);
+}
+
+.test-checklist__summary--success {
+  border-color: var(--color-success-base);
+}
+
+.test-checklist__count {
+  font-family: var(--font-heading);
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--color-text-primary);
+  margin-bottom: var(--spacing-xs);
+}
+
+.test-checklist__warning {
+  font-size: 15px;
+  color: var(--color-warning-base);
+}
+
+.test-checklist__success {
+  font-size: 15px;
+  color: var(--color-success-base);
+}
+
+.test-checklist__list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+  margin-bottom: var(--spacing-md);
+}
+
+.test-checklist__item {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--spacing-sm);
+  padding: var(--spacing-md);
+  background: var(--color-white);
+  border: 1px solid var(--color-border-default);
+  border-radius: var(--border-radius-sm);
+}
+
+.test-checklist__checkbox {
+  width: 20px;
+  height: 20px;
+  margin-top: 2px;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.test-checklist__content {
+  flex: 1;
+}
+
+.test-checklist__label {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--color-text-primary);
+  margin-bottom: 4px;
+  cursor: pointer;
+}
+
+.test-checklist__how-to {
+  font-size: 14px;
+  color: var(--color-text-secondary);
+  font-style: italic;
+}
+
+.test-checklist__actions {
+  display: flex;
+  gap: var(--spacing-sm);
+}
+
+@media (max-width: 768px) {
+  .test-checklist__heading {
+    font-size: 36px;
+  }
+}

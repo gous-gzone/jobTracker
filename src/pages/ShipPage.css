@@ -1,0 +1,47 @@
+.ship {
+  padding: var(--spacing-lg) var(--spacing-md);
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.ship__heading {
+  font-family: var(--font-heading);
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--color-text-primary);
+  margin-bottom: var(--spacing-md);
+}
+
+.ship__locked {
+  padding: var(--spacing-xl) var(--spacing-md);
+}
+
+.ship__locked-icon {
+  font-size: 64px;
+  margin-bottom: var(--spacing-md);
+}
+
+.ship__locked-text {
+  font-size: 17px;
+  line-height: 1.7;
+  color: var(--color-text-secondary);
+  margin-bottom: var(--spacing-md);
+}
+
+.ship__unlocked {
+  padding: var(--spacing-xl) var(--spacing-md);
+}
+
+.ship__unlocked-icon {
+  font-size: 64px;
+  margin-bottom: var(--spacing-md);
+}
+
+.ship__unlocked-text {
+  font-size: 17px;
+  line-height: 1.7;
+  color: var(--color-success-base);
+  margin-bottom: var(--spacing-md);
+}

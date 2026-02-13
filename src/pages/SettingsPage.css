@@ -57,3 +57,51 @@
 .settings__actions {
   margin-top: var(--spacing-md);
 }
+
+.settings__checkbox-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-sm);
+}
+
+.settings__checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+  font-size: 15px;
+  color: var(--color-text-primary);
+  cursor: pointer;
+}
+
+.settings__checkbox {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
+
+.settings__slider {
+  width: 100%;
+  height: 8px;
+  border-radius: 4px;
+  background: var(--color-border-default);
+  outline: none;
+  cursor: pointer;
+}
+
+.settings__slider::-webkit-slider-thumb {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: var(--color-accent-primary);
+  cursor: pointer;
+}
+
+.settings__slider::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: var(--color-accent-primary);
+  cursor: pointer;
+  border: none;
+}

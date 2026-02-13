@@ -6,7 +6,7 @@ export const ProofPage: React.FC = () => {
     <div className="placeholder-page">
       <h1 className="placeholder-page__heading">Proof</h1>
       <p className="placeholder-page__subtext">
-        Artifact collection placeholder.
+        Navigate to /jt/proof for the final proof and submission system.
       </p>
     </div>
   )
