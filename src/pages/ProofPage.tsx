@@ -6,7 +6,7 @@ export const ProofPage: React.FC = () => {
     <div className="placeholder-page">
       <h1 className="placeholder-page__heading">Proof</h1>
       <p className="placeholder-page__subtext">
-        This section will be built in the next step.
+        Artifact collection placeholder.
       </p>
     </div>
   )

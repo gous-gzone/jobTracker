@@ -4,11 +4,9 @@ import './PlaceholderPage.css'
 export const DigestPage: React.FC = () => {
   return (
     <div className="placeholder-page">
-      <h1 className="placeholder-page__heading">Digest</h1>
-
-      
+      <h1 className="placeholder-page__heading">Daily Digest</h1>
       <p className="placeholder-page__subtext">
-        This section will be built in the next step.
+        Your personalized job digest will be delivered daily at 9AM.
       </p>
     </div>
   )

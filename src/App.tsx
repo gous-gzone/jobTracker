@@ -1,6 +1,7 @@
 import React from 'react'
-import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { PageLayout } from './layout/PageLayout'
+import { LandingPage } from './pages/LandingPage'
 import { DashboardPage } from './pages/DashboardPage'
 import { SavedPage } from './pages/SavedPage'
 import { DigestPage } from './pages/DigestPage'
@@ -12,7 +13,7 @@ const App: React.FC = () => {
     <BrowserRouter>
       <PageLayout>
         <Routes>
-          <Route path="/" element={<Navigate to="/dashboard" replace />} />
+          <Route path="/" element={<LandingPage />} />
           <Route path="/dashboard" element={<DashboardPage />} />
           <Route path="/saved" element={<SavedPage />} />
           <Route path="/digest" element={<DigestPage />} />

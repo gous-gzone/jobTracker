@@ -1,3 +1,4 @@
+export { LandingPage } from './LandingPage'
 export { DashboardPage } from './DashboardPage'
 export { SavedPage } from './SavedPage'
 export { DigestPage } from './DigestPage'
