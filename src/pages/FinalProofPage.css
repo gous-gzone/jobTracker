@@ -50,10 +50,35 @@
   display: flex;
   align-items: center;
   gap: var(--spacing-xs);
+  transition: border-color var(--transition-default), background-color var(--transition-default);
+}
+
+/* completed / pending states */
+.final-proof__step--completed {
+  border-color: var(--color-success-base);
+  background-color: rgba(74,124,89,0.04);
+}
+
+.final-proof__step--pending {
+  border-color: var(--color-border-default);
+  background-color: var(--color-white);
 }
 
 .final-proof__step-icon {
   font-size: 18px;
+  width: 20px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.final-proof__step--completed .final-proof__step-icon {
+  color: var(--color-success-base);
+  font-weight: 700;
+}
+
+.final-proof__step--pending .final-proof__step-icon {
+  color: var(--color-text-secondary);
 }
 
 .final-proof__step-name {

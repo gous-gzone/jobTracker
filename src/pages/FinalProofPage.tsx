@@ -72,10 +72,15 @@ export const FinalProofPage: React.FC = () => {
 
       <div className="final-proof__section">
         <h2 className="final-proof__section-title">A) Step Completion Summary</h2>
-        <div className="final-proof__steps">
+        <div className="final-proof__steps" role="list">
           {stepStatuses.map(step => (
-            <div key={step.id} className="final-proof__step">
-              <span className="final-proof__step-icon">
+            <div
+              key={step.id}
+              role="listitem"
+              className={`final-proof__step ${step.completed ? 'final-proof__step--completed' : 'final-proof__step--pending'}`}
+              aria-label={`${step.name} — ${step.completed ? 'Completed' : 'Pending'}`}
+            >
+              <span className="final-proof__step-icon" aria-hidden="true">
                 {step.completed ? '✓' : '○'}
               </span>
               <span className="final-proof__step-name">{step.name}</span>
